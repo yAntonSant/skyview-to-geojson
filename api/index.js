@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   const response = await fetch("https://skyview.37037.org/skvapiv2/api/frota/integracao", {
     headers: {
-      Authorization: `Bearer ${process.env.BEARER_TOKEN}` // Usando a variável de ambiente
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dGlsaXphZG9yX2lkIjoiMzA3OSIsImNsaWVudGVfaWQiOiIxNTk4IiwibmJmIjoxNzQ2NTIzMzcyLCJleHAiOjIwNjIwNTYxNzIsImlhdCI6MTc0NjUyMzM3Mn0.umqNAKW8DBBTvYIL26T8IN33Sw9XdqDBqpdNKaAYwRc"
     }
   });
 
